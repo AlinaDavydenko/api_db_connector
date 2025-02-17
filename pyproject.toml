@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "api-db-connector"
+version = "0.1.0"
+description = ""
+authors = ["Alina Davydenko <Alinadavydenko620@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+fastapi = "^0.115.8"
+uvicorn = "^0.34.0"
+asgiref = "^3.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
